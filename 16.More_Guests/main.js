@@ -13,7 +13,7 @@ guestList.unshift("Ali");
 // Adding a new guest at ending index of Array
 guestList.push("Zain");
 // Adding a new guest at middle index of Array
-var middleIndex = (guestList.length / 2);
+var middleIndex = Math.floor(guestList.length / 2);
 // Adding a new guest to middle index of Array
 guestList.splice(middleIndex, 0, "Osama");
 // Print Message of Updated List
