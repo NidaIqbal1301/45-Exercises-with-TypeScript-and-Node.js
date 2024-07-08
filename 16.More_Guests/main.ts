@@ -20,7 +20,7 @@ guestList.unshift("Ali");
 guestList.push("Zain");
 
 // Adding a new guest at middle index of Array
-let middleIndex: number = (guestList.length / 2);
+let middleIndex: number = Math.floor(guestList.length / 2);
 
 // Adding a new guest to middle index of Array
 guestList.splice(middleIndex, 0, "Osama");
